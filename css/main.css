@@ -1,0 +1,174 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: #ececec;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+.context {
+    height: 100vh repeat;
+    width: 300px;
+}
+
+.container {
+    width: 70%;
+    border: 10px;
+    margin: 0 auto;
+}
+
+.foto {
+    width: 250px;
+    padding-top: 16%;
+    float: right;
+}
+
+.nav {
+    float: center;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: right;
+    display: block;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+    opacity: 1;
+}
+
+.menu li:hover {
+    opacity: 0.5;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.titles {
+    color: black;
+    float: left;
+    text-align: left;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 0px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background: black;
+    padding: 10px;
+}
+
+.item {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 19px;
+    text-align: justify;
+    margin: 0;
+    width: 65%;
+    margin-top: 12%;
+}
+
+.skills_des {
+    font-size: 21px;
+    text-align: left;
+    width: 100%;
+}
+
+.landing {
+    background: #f1f1f1;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+    margin-top: 70px;
+}
+
+.skills {
+    text-align: justify; 
+    text-justify:newspaper; 
+    width:100%;
+}
+
+.skills:after {
+    content:''; 
+    display:inline-block; 
+    width:100%;
+}
+
+.map {
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;  
+}
+
+footer {
+    background: black;
+    color: white;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.skills_logo {
+    background: #f1f1f1;
+}
+
+.skills_logo:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#bx24_form_inline {
+    float: right;
+}
+
+.connection {
+    text-align: center; 
+    text-justify:newspaper; 
+    width:100%;
+}
+    
+.connection:after {
+    content:''; 
+    display:inline-block; 
+    width:100%;
+}
+
+.connection_logo:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
